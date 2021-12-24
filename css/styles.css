@@ -1,0 +1,776 @@
+/*  TOUTES LES PAGES */ 
+body {
+    font-family: Poppins-SemiBold;
+    background-color: #FAFAFA;
+    background-image: url("../img/Photos/background.png");
+}
+
+h1 {
+    color: #080548;
+    font-size: 35pt;
+    margin: -20px 0;
+}
+
+h2 {
+    color: #080548;
+    font-size: 27pt;
+    margin: -5px 0 -20px 0;
+}
+
+.h2-clair {
+    color: #fff;
+    padding-top: 30px;
+}
+
+h3{
+    color: #0c9ca2;
+    font-size: 12pt;
+}
+
+.h3-clair {
+    color: #a4d7d9;
+}
+
+h5 {
+    color: #fff;
+    font-size: 14pt;
+    margin-top: 100px;
+}
+
+h6 {
+    color: #080548;
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #080548;
+    font-size: 11pt;
+    line-height: 22px;
+    font-family: Poppins-Regular;
+}
+
+.btn{
+    color:#0c9ca2;
+    text-decoration: underline;
+    text-underline-position: under;
+    padding: 5px 0;
+    display: flex;
+    max-width: 300px;
+}
+
+.btn:hover {
+    color: #a4d7d9;
+    transition: right 0.5s, transform 1s; 
+    -webkit-transition: right 0.5s, -webkit-transform 1s;
+    -webkit-transform: translateX(30px);
+}
+
+.fleche {
+    padding-right: 15px;
+    padding-top: 5px;
+    width: 30px;
+    height: 15px;
+}
+
+
+/*  MENU  */ 
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.menu li {
+    padding: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #080548;
+    font-size: 16px;
+}
+
+.logo {
+    max-width: 100%;
+    padding: 10px 20px;
+}
+
+.logo-menu {
+    width: 70px;
+    z-index: 2;
+}
+
+.logo-menu a {
+    width: auto;
+}
+
+.menu ul li a:hover {
+    color: #a4d7d9;
+}
+
+
+/*  PAGE ACCUEIL*/ 
+
+.section-accueil1 {
+    display: flex; 
+    margin-bottom: 100px;
+    padding: 30px 0;
+}
+
+.texte-accueil1 {
+    display: flex; 
+    resize: vertical;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 80px;
+    max-width: 500px;
+    max-height: 300px;
+    margin: 70px 0;
+}
+
+.img-janeramos {
+    display: block;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    object-fit: none;
+    object-position: 0px -150px;
+}
+
+.feuille-accueil1 {
+    height: 130px;
+    z-index: 2;
+    position: absolute;
+    top: 80%;
+    right: 47%;
+}
+
+.section-accueil2 {
+    display: flex; 
+    flex-direction: column;
+}
+
+.texte-accueil2 {
+    display: flex;
+    resize: vertical;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    max-width: 500px;
+}
+
+.text-left {
+    padding-right: 100px;
+}
+
+.text-right {
+    padding-left: 20px;
+    max-height: 150px;
+    margin: auto;
+}
+
+.img-plage{
+    display: block;
+    width: 560px;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+}
+
+.section2-partie1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.section2-partie2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    margin : 0 120px;
+}
+
+.photos-carres {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-mariage-portrait {
+    display: block;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.feuille2 {
+    width: 8%;
+}
+
+.illu-feuille2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texte-accueil3 {
+    text-align: center;
+}
+
+.conteneur-service {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px 90px;
+}
+
+.img-service {
+    display: block;
+    width: 350px;
+    height: 480px;
+    object-fit: cover;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+
+.section-accueil4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.text-rs {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 600px;
+    padding-left: 20px;
+}
+
+.illu-feuille3 {
+    width: 250px;
+    height: 200px;
+}
+
+.icone-rs img {
+    max-width: 40px;
+    padding-left: 20px;
+}
+
+.icone-rs {
+    padding: 80px 20px;
+}
+
+.rs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+    width: 600px;
+}
+
+.section-accueil5 {
+    background-color: #0c9ca2;
+    text-align: center;
+    max-height: 700px;
+    margin-top: 100px;
+}
+
+
+.shooting-details {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px 50px;
+
+}
+
+.icones-shooting {
+    z-index: 2;
+    position : absolute;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.chiffres {
+    z-index: 1;
+    padding-left: 80px;
+    position: relative;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shooting-details img{
+    width: 150px;
+}
+
+
+.section-accueil6 {
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section-accueil6 a {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* FOOTER */
+
+.footer-contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.illu-footer {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.footer-menu {
+    width: 500px;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    padding: 10px 0;
+    margin: auto;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: #0c9ca2;
+}
+
+.lien-footer:hover {
+    color: #a4d7d9;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    padding: 10px 0;
+    color: #0c9ca2;
+}
+
+.footer-rs img {
+    width: 7%;
+    padding: 10px 15px 0 0;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.infos p {
+    color: #0c9ca2;
+}
+
+.hover-rs:hover {
+    opacity: 50%;
+}
+
+
+/* PAGE VOYAGE */
+
+.section-bandeau-voyage {
+    background-image: url("../img/photos/voyage-bandeau.jpg");
+    background-size: 100%;
+    z-index: 5;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+}
+
+.titre-galerie {
+    font-size: 100pt;
+    z-index: 1;
+    color: #fff;
+    font-family: Poppins-SemiBold;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.conteneur-galerie {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.illu-galerie {
+    width: 15px;
+}
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : space-around;
+    position: relative;
+    padding: 0 100px;
+}
+
+.galerie img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    padding-top: 60px;
+}
+
+.btn-contact {
+    display: block;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.btn-shooting {
+    width: 200px;
+    margin: auto;
+}
+
+/* PAGE MARIAGE */
+
+.section-bandeau-mariage {
+    background-image: url("../img/photos/mariage-bandeau.jpg");
+    background-size: 100%;
+    z-index: 5;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+}
+
+
+/* PAGE PORTRAIT */
+
+.section-bandeau-portrait {
+    background-image: url("../img/photos/portrait-bandeau.jpg");
+    background-size: 100%;
+    z-index: 5;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+}
+
+/* PAGE À PROPOS */
+
+.section1-apropos {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 30px 80px 0 0;
+}
+
+.img1-apropos {
+    display: block;
+    width: 640px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    object-fit: none;
+    object-position: 0px -130px;
+}
+
+.feuille1-apropos {
+    height: 150px;
+    z-index: 2;
+    position: absolute;
+    top: 70%;
+    right: 92%;
+}
+
+.texte1-apropos {
+    display: flex; 
+    resize: vertical;
+    flex-direction: column;
+    padding-left: 80px;
+    max-width: 500px;
+    max-height: 300px;
+    margin: 70px 0;
+    padding-right: 150px;
+}
+
+.section2-apropos {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 30px 80px 0 0;
+}
+
+.img2-apropos {
+    height: 500px;
+}
+
+.texte2-apropos {
+    display: flex; 
+    resize: vertical;
+    flex-direction: column;
+    padding-left: 80px;
+    max-width: 500px;
+    max-height: 300px;
+    margin: 70px 0;
+}
+
+.titre-apropos {
+    text-align: center;
+}
+
+.texte3-apropos {
+    text-align: center;
+    max-width: 200px;
+}
+
+.shooting-apropos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px 50px;
+}
+
+.shooting-apropos img {
+    width: 150px;
+    margin: auto;
+}
+
+.details-apropos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icones-shooting-apropos {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.h5-bleu {
+    color: #0c9ca2;
+    margin: 0;
+    text-align: center;
+}
+
+.btn-apropos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.fond-apropos {
+    background-color: #0c9ca2;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.p-citation {
+    text-align: center;
+    font-size: 20px;
+    color : #fff;
+    padding: 40px 0 40px 0;
+    max-width: 600px;
+    line-height: 35px;
+}
+
+.guillemet {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+
+.illu-guillemet {
+    width: 5%;
+    z-index: 2;
+}
+
+.illu-feuille3 {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    float: right;
+    z-index: 2;
+}
+
+.section5-apropos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texte-service {
+    display: flex; 
+    resize: vertical;
+    flex-direction: column;
+}
+
+.p-services {
+    color:  #0c9ca2;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -2px;
+}
+
+.clients {
+    list-style-type: none;
+}
+
+.service-clients{
+    display: flex;
+    flex-direction: row;
+}
+
+.service-clients ul{
+    padding-left: 0;
+    padding-right: 50px;
+    margin-top: 3px;
+
+}
+
+.liste-clients {
+    font-weight: lighter;
+    color:#0c9ca2;
+    padding: 5px 0;
+    text-decoration-line: none;
+}
+
+.liste-clients:hover {
+    color: #a4d7d9;
+}
+
+.service-separation {
+    padding-left: 300px;
+}
+
+/* PAGE CONTACT */
+
+.section-contact {
+    margin : auto;
+    z-index: 1;
+}
+
+
+.img-left-contact {
+    width: 130px;
+    position: absolute;
+    left: 0;
+    margin-top: -50px;
+}
+
+.img-right-contact {
+    width: 130px;
+    position: absolute;
+    right: 0;
+    margin-top: -50px;
+}
+
+.img-down-contact {
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin-left: 250px;
+}
+
+.illu-feuille4 {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+    width: 120px;
+    position: absolute;
+    right: 0;
+    margin-top: -100px;
+}
+
+.cadre-contact {
+    background-color: #f0F0F0;
+    margin : auto;
+    max-width: 500px;
+    height: 200px;
+    padding: 50px 150px;
+    margin-top: 70px;
+}
+
+.texte-contact {
+    text-align: center;
+}
+
+.texte-contact a {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.contact {
+    z-index: 2;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.contact-groupe {
+    width: 400px;
+}
+
+.rs-icon {
+    width: 400px;
+    text-align: right;
+}
+
+.rs-contact {
+    width: 4%;
+    padding-right: 10px;
+}
+
+.rs-contact:hover {
+    opacity: 50%;
+}
+
+.tel {
+    text-decoration: none;
+    color: #0c9ca2;
+}
+
+.tel:hover {
+    opacity: 50%;
+}
+
